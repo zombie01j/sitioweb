@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Apple Wolf - Manzanas Gourmet</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+        }
+        
+        .header {
+            background-color: #1a1a1a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .logo {
+            width: 150px;
+            height: 150px;
+            background-color: #1a1a1a;
+            border-radius: 50%;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 24px;
+        }
+        
+        .nav {
+            background-color: #333;
+            padding: 15px;
+            text-align: center;
+        }
+        
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        
+        .hero {
+            padding: 60px 20px;
+            text-align: center;
+            background-color: #2a2a2a;
+            color: white;
+        }
+        
+        .products {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        
+        .product-card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        .about {
+            padding: 40px 20px;
+            background-color: #2a2a2a;
+            color: white;
+            text-align: center;
+        }
+        
+        .footer {
+            background-color: #1a1a1a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .placeholder-img {
+            width: 200px;
+            height: 200px;
+            background-color: #ddd;
+            margin: 0 auto 20px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="ima/logo.png" alt="Apple Wolf Logo">
+        </div>
+        <h1>Apple Wolf</h1>
+        <p>Manzanas Gourmet</p>
+    </header>
+    
+    <nav class="nav">
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="contacto.html" target="_blank">Contacto</a>
+    </nav>
+    
+    <section class="hero">
+        <h2>Deliciosas Manzanas Artesanales</h2>
+        <p>Descubre el sabor único de nuestras manzanas gourmet</p>
+    </section>
+    
+    <section class="products" id="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="placeholder-img">Manzana Caramelo</div>
+                <h3>Manzana con Caramelo</h3>
+                <p>Clásica manzana cubierta con caramelo dorado y crujiente</p>
+            </div>
+            <div class="product-card">
+                <div class="placeholder-img">Manzana Chocolate</div>
+                <h3>Manzana con Chocolate</h3>
+                <p>Deliciosa cobertura de chocolate negro premium</p>
+            </div>
+            <div class="product-card">
+                <div class="placeholder-img">Manzana Fantasma</div>
+                <h3>Manzana Fantasma</h3>
+                <p>Decorada con chocolate blanco y negro en diseño fantasmal</p>
+            </div>
+            <div class="product-card">
+               
+                <div class="placeholder-img">Manzana Chispitas</div>
+                <h3>Manzana con Chispitas</h3>
+                <p>Cubierta de chocolate blanco y decorada con chispas de colores</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="about" id="nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>En Apple Wolf nos dedicamos a crear las más deliciosas manzanas gourmet, combinando la mejor fruta fresca con coberturas artesanales de la más alta calidad. Cada manzana es elaborada con dedicación y atención al detalle para garantizar una experiencia única.</p>
+    </section>
+    
+    <footer class="footer">
+        <p>&copy; 2024 Apple Wolf - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
